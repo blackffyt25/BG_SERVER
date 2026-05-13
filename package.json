@@ -1,11 +1,13 @@
 {
   "name": "bg_server",
   "version": "1.0.0",
+  "description": "BG_Server Minecraft Hosting Panel",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
